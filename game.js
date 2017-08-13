@@ -46,16 +46,16 @@ function updateCounts () {
   var totalDots = document.getElementsByClassName('board')[0].children;
 
       for (var i = 0; i < totalDots.length; i++){
-          if (totalDots[0].classList.contains('blue')){
+          if (totalDots[i].classList.contains('blue')){
           totals.blue ++;
           }
 
-          if (totalDots[0].classList.contains('green')){
+          if (totalDots[i].classList.contains('green')){
           totals.green ++;
           }
 
 
-          if (totalDots[0].classList.contains('invisible')){
+          if (totalDots[i].classList.contains('invisible')){
           totals.invisible ++;
           }
       }
